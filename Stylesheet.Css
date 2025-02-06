@@ -1,0 +1,248 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body
+{
+    background-image: url(9408.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+    margin: 0;
+}
+
+/* Header Style */
+header {
+    background-color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+.img1
+{
+    height: 10%;
+    width: 25%;
+}
+
+/* Navigation Bar Style */
+nav {
+    background-color:white;
+    padding: 20px 0;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    display: inline-flex;
+    font-size: 25px;
+}
+
+nav ul li {
+    margin: 0 15px;
+    font-size: 25px;
+    font-family: italic;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+    font-size: 25px;
+}
+
+nav ul li a:hover {
+    color:pink;
+}
+.search
+{
+    width: 330px;
+    float: left;
+    margin-left: 270px;
+}
+.search
+{
+    font-family: 'Times New Roman';
+    width: 400px;
+    height: 50px;
+    background: transparent;
+    border: 1px solid black;
+    margin-left: 170px;
+    font-size: 20px;
+    border-radius: 50px;
+    text-align: center;
+}
+
+button
+{
+    width: 100px;
+    height: 40px;
+    border: 1px solid;
+    margin-top: 5px;
+    color:black;
+    font-size: 15px;
+    border-top-right-radius: 50px;
+    border-bottom-right-radius: 50px;
+}
+button a
+{
+    text-decoration: none;
+}
+button:hover
+{
+    background-color: pink;
+    color: white;
+}
+button:focus
+{
+outline: none
+
+}
+.srch:focus
+{
+    outline: none;
+}
+
+/* Gallery Introduction Section */
+#gallery-intro {
+    display: flex;
+    flex-direction: column; /* Stack items (heading and content) vertically */
+    align-items: center; /* Horizontally center the content */
+    justify-content: flex-start; /* Align items to top */
+    height: auto;
+    background-color: #f4f4f4;
+    background-image: url(v882batch2-kul-12.jpg); /* Set background image */
+    background-size: cover; /* Ensure the background image covers the section */
+    background-position: center; /* Center the background image */
+    padding: 20px;
+}
+
+/* Heading Style */
+#gallery-intro h2 {
+    font-size: 48px; /* Larger heading size */
+    margin-bottom: 20px; /* Space between heading and content */
+    text-align: center; /* Center the heading */
+}
+
+/* Content Style (Text and Image) */
+.intro-content {
+    display: flex;
+    flex-direction: row; /* Align text and image horizontally */
+    justify-content: space-between; /* Place text on the left and image on the right */
+    align-items: center; /* Vertically center the content */
+    width: 100%;
+    max-width: 1200px; /* Limit the maximum width */
+    padding: 20px;
+}
+
+.intro-content p {
+    font-size: 22px; /* Increase font size for text */
+    line-height: 1.6; /* Improve readability with line height */
+    margin-right: 20px; /* Space between text and image */
+    width: 60%; /* Text takes 60% of the width */
+    color: black;
+}
+
+#gallery-intro img {
+    width: 300px; /* Adjust image width */
+    height: 400px; /* Adjust image height */
+    object-fit: cover; /* Ensure the image fits well */
+}
+
+/* Gallery Section Style */
+#gallery {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 20px;
+    background-color: #fff;
+}
+
+.card {
+    width: 30%;
+    margin: 10px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #f9f9f9;
+    cursor: pointer;
+}
+
+.card img {
+    width: 100%;
+    height: 500px;
+}
+
+.card-content {
+    padding: 15px;
+    text-align: center;
+}
+
+.card-content h3 {
+    font-size: 22px;
+    margin-bottom: 5px;
+}
+
+.card-content p {
+    font-size: 16px;
+    color: #555;
+}
+
+/* Footer Style */
+footer {
+    color: black;
+    text-align: center;
+    padding: 15px;
+    position: absolute;
+    margin: 0;
+    width: 100%;
+    font-size: 20px;
+    background-color: whitesmoke;
+}
+html,body
+{
+    height: 100%;
+    margin: 0;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.nav-item
+{
+    font-size: 25px;
+    font-family: italic;
+}
+.nav-item a:hover
+{
+color: pink;
+}
+.hero-section
+{
+    position: relative;
+    height: 80vh;
+    background:url(https://static.vecteezy.com/system/resources/previews/048/617/137/non_2x/pastel-colored-sky-reflected-in-gentle-waves-of-beach-at-sunrise-nature-background-free-photo.jpg);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#about
+{
+    background-image: url(v882batch2-kul-12.jpg);
+}
+#about h2
+{
+    font-size: 40px;
+    font-family: bold;
+}
+#about p
+{
+    padding: 20px; 
+    text-align: justify;
+} 
